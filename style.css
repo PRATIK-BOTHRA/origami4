@@ -1,0 +1,74 @@
+h1{
+    color: rgb(34, 187, 154);
+}
+
+body{
+    background: linear-gradient(70deg, rgb(20, 56, 102), rgb(214, 8, 197));
+    color: #ffffff;
+}
+
+.panda{
+    display: flex;
+}
+
+.about *{
+    display: flex;
+    border: hidden;
+    width: 70px;
+    margin-left: 30px;
+}
+
+.text{
+    display: flex;
+    -webkit-filter: blur(2px);
+    transition: all 0.5s ease-in;
+}
+.text:hover{
+    -webkit-filter: blur(0px);
+    transition: all 0.5s ease-out;
+}
+
+.text2{
+    -webkit-filter: blur(2px);
+    transition: all 0.5s ease-in;
+}
+.text2:hover{
+    -webkit-filter: blur(0px);
+    transition: all 0.5s ease-out;
+}
+
+.pantext{
+    -webkit-filter: blur(2px);
+    transition: all 0.5s ease-in;
+}
+.pantext:hover{
+    -webkit-filter: blur(0px);
+    transition: all 0.5s ease-out;
+}
+
+.pigtext{
+    -webkit-filter: blur(2px);
+    transition: all 0.5s ease-in;
+}
+.pigtext:hover{
+    -webkit-filter: blur(0px);
+    transition: all 0.5s ease-in;
+}
+
+.teddytex{
+    -webkit-filter: blur(2px);
+    transition: all 0.5s ease-in;
+}
+.teddytex:hover{
+    -webkit-filter: blur(0px);
+    transition: all 0.5s ease-in;
+}
+
+.camtex{
+    -webkit-filter: blur(2px);
+    transition: all 0.5s ease-in;
+}
+.camtex:hover{
+    -webkit-filter: blur(0px);
+    transition: all 0.5s ease-in;
+}
